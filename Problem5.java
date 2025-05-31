@@ -30,7 +30,7 @@ public class TicTacToeAppTest {
 
     @Test
     public void testProcessConfCommand() {
-        assertEquals("conf OK Player(X)", protocol.process("conf X 3 3"));
+        assertEquals("conf OK Player(X)", protocol.process("conf X 4 3"));
     }
 
     private static TicTacToe game = null;
