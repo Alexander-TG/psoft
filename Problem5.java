@@ -25,7 +25,7 @@ public class TicTacToeAppTest {
     public void testInitialState() {
         assertEquals("", game.getCell(0, 0));
         assertEquals("", game.getCell(1, 1));
-        assertEquals("", game.getCell(2, 2));
+        assertEquals("", game.getCell(2, 3));
     }
 
     @Test
