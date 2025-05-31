@@ -8,7 +8,7 @@ public class TicTacToeAppTest {
 
     @BeforeAll
     static void setUpBeforeClass() throws Exception {
-        game = new TicTacToe("X", "O", 3, 3);
+        game = new TicTacToe("X", "O", 4, 4);
         protocol = new TicTacToeProtocol(game);
     }
 
@@ -25,6 +25,7 @@ public class TicTacToeAppTest {
     public void testInitialState() {
         assertEquals("", game.getCell(0, 0));
         assertEquals("", game.getCell(1, 1));
+        assertEquals("", game.getCell(2, 2));
     }
 
     @Test
